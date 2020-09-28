@@ -1,0 +1,8 @@
+{
+    "folders": [],
+    "settings": {},
+    "[javascript]": {
+      "editor.formatOnSave": true
+    },
+    "prettier.endOfLine": "auto"
+  }
