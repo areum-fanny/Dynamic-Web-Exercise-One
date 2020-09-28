@@ -1,14 +1,18 @@
 import React from 'react';
 import ArticleCard from '../components/ArticleCard';
+import Data from '../components/data'
 
 function ArticleListing() {
     return (
-        <section>
+        <main>
             <header>
-                <h1>Article Listing</h1>
-                <ArticleCard />
+                <h1>Article Listing</h1> 
             </header>
-        </section>
+            {Data.map((article,i)=>(
+                <ArticleCard key = {i} articleData = {article} />
+            ))}
+            
+        </main>
     );
 }
 
