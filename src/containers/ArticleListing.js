@@ -6,7 +6,7 @@ function ArticleListing() {
   return (
     <main>
       <header>
-        <h1>Article Listing</h1>
+        <h1>Articles</h1>
       </header>
       {Data.map((article, i) => (
         <ArticleCard key={i} articleData={article} />
