@@ -4,5 +4,4 @@
     "[javascript]": {
       "editor.formatOnSave": true
     },
-    "prettier.endOfLine": "auto"
   }
