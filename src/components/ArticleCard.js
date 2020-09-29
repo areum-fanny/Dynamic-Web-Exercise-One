@@ -17,7 +17,7 @@ function ArticleCard({ articleData }) {
             <h2>{articleData.title}</h2>
             <p>{`${days[dayoftheWeek]}, ${months[month]} ${calendarDate}, ${year}`}</p>
             <p>{articleData.blurb}</p>
-            <Link to={`/article/${articleData.id}`}>Read More</Link>
+            <Link to={`/article/${articleData.id}`} className="ArticleCardTextLink">Read More</Link>
         </div>
     </div>
   );
